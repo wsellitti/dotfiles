@@ -1,0 +1,10 @@
+# Directories
+!/User/
+!/User/snippets/
+
+# Files
+!/User/snippets/*
+!/User/settings.json
+
+# Filetypes
+

@@ -1,0 +1,8 @@
+# Directories
+
+# Files
+!/ftplugin/
+
+# Filetypes
+!*.vim
+

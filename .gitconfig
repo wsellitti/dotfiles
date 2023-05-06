@@ -1,0 +1,9 @@
+[user]
+	name = William Sellitti
+	email = william.sellitti@gmail.com
+[credential "https://gitlab.home.wesitcllc.com/"]
+	username = will
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main

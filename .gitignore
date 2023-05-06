@@ -1,0 +1,32 @@
+# Ignore everything
+*
+
+# Directories
+!/.bin/
+!/.config/
+!/.ssh/
+!/.vim/
+
+# Files
+!/.bash_logout
+!/.bash_profile
+!/.bashrc
+!/.git-prompt.sh
+!/.gitconfig
+!/.gitmodules
+!/.gtkrc-2.0
+!/.profile
+!/.tmux.conf
+!/.toprc
+!/.vimrc
+
+# Filetypes
+**.pyc
+**.jpeg
+**.jpg
+**.png
+**.bmp
+
+# Don't ignore gitignores
+!.gitignore
+

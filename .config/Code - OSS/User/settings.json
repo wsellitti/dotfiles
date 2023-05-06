@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Red",
+    "workbench.colorCustomizations": {
+        "[Red]": {
+            "editorCursor.background": "#808000",
+            "editorCursor.foreground": "#808000"
+        }
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.renderSideBySide": false,
+    "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
+    "git.confirmSync": false,
+    "rewrap.autoWrap.enabled": true,
+    "rewrap.wrappingColumn": 80
+}
