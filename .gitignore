@@ -2,7 +2,6 @@
 *
 
 # Directories
-!/.bin/
 !/.config/
 !/.ssh/
 !/.vim/
