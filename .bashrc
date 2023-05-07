@@ -39,6 +39,7 @@ if [[ -x /usr/bin/dircolors ]]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+alias batt="echo `cat /sys/class/power_supply/BAT0/status` \(`cat /sys/class/power_supply/BAT0/capacity`%\)"
 
 # Prompt stuff
 #
