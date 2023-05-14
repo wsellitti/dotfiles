@@ -10,6 +10,7 @@
 !/.bash_logout
 !/.bash_profile
 !/.bashrc
+!/.fehbg
 !/.git-prompt.sh
 !/.gitconfig
 !/.gitmodules
@@ -18,13 +19,7 @@
 !/.tmux.conf
 !/.toprc
 !/.vimrc
-
-# Filetypes
-**.pyc
-**.jpeg
-**.jpg
-**.png
-**.bmp
+!/.wallpaper.*
 
 # Don't ignore gitignores
 !.gitignore
