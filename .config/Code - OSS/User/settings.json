@@ -2,8 +2,8 @@
     "workbench.colorTheme": "Red",
     "workbench.colorCustomizations": {
         "[Red]": {
-            "editorCursor.background": "#808000",
-            "editorCursor.foreground": "#808000"
+            "editorCursor.background": "#c4c400",
+            "editorCursor.foreground": "#c4c400"
         }
     },
     "editor.multiCursorModifier": "ctrlCmd",
@@ -15,6 +15,26 @@
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
     "git.confirmSync": false,
+    "python.analysis.autoImportCompletions": false,
     "rewrap.autoWrap.enabled": true,
-    "rewrap.wrappingColumn": 80
+    "rewrap.wrappingColumn": 80,
+    "python.defaultInterpreterPath": "/bin/python3",
+    "python.languageServer": "Jedi",
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "editor.detectIndentation": false,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": -1,
+    "editor.renderWhitespace": "all",
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "keep",
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    }
 }
