@@ -20,7 +20,10 @@
 !/.toprc
 !/.vimrc
 !/.wallpaper.*
+!/.zcompdump
+!/.zlogin
+!/.zprofile
+!/.zshrc
 
 # Don't ignore gitignores
 !.gitignore
-
