@@ -1,19 +1,19 @@
 {
-    "workbench.colorTheme": "Red",
     "workbench.colorCustomizations": {
         "[Red]": {
             "editorCursor.background": "#c4c400",
             "editorCursor.foreground": "#c4c400"
         }
     },
+    "workbench.colorTheme": "Wildberries Darker",
+    "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.wordWrap": "on",
+    "diffEditor.wordWrap": "off",
     "editor.minimap.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "diffEditor.renderSideBySide": false,
-    "telemetry.telemetryLevel": "off",
-    "redhat.telemetry.enabled": false,
     "git.confirmSync": false,
     "python.analysis.autoImportCompletions": false,
     "rewrap.autoWrap.enabled": true,
