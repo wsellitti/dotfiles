@@ -1,13 +1,23 @@
-# End of lines configured by zsh-newuser-install
-# My settings
+# Check if in git repo in unignored directory.
+check_git() {
+    git check-ignore -q . 2> /dev/null
+    (( is_git = $? == 1 ))
+}
+chpwd_functions+=(check_git)
+
+# Create prompt
+custom_git_prompt() {
+    if (( is_git )); then
+        echo -e "\n$(git_super_status)"
+    fi
+}
 
 PROMPT="
 %{$fg[blue]%}%n%{$reset_color%} %{$fg[yellow]%}%m%{$reset_color%} %{$fg[red]%}%~%{$reset_color%}"
-PROMPT+='
-$(git_super_status)'
+PROMPT+='$(custom_git_prompt)'
 PROMPT+="
 %{$fg[blue]%}%D %*%{$reset_color%}
-%{$fg[cyan]%}%!%{$reset_color%} %{$fg[green]%}>>%{$reset_color%} "
+%(?..%{$fg_bold[red]%}%?%{$reset_color%} )%{$fg[cyan]%}%!%{$reset_color%} %{$fg[green]%}>>%{$reset_color%} "
 
 # No prompt to the right
 RPROMPT=""
