@@ -1,4 +1,6 @@
 # Check if in git repo in unignored directory.
+#
+# From stackoverflow
 check_git() {
     git check-ignore -q . 2> /dev/null
     (( is_git = $? == 1 ))
