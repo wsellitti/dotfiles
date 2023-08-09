@@ -17,7 +17,7 @@
     "git.confirmSync": false,
     "python.analysis.autoImportCompletions": false,
     "rewrap.autoWrap.enabled": true,
-    "rewrap.wrappingColumn": 80,
+    "rewrap.wrappingColumn": 78,
     "python.defaultInterpreterPath": "/bin/python3",
     "python.languageServer": "Jedi",
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
@@ -36,5 +36,6 @@
             "comments": false,
             "strings": true
         }
-    }
+    },
+    "python.testing.unittestEnabled": true
 }
