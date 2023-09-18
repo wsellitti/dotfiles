@@ -5,7 +5,7 @@
             "editorCursor.foreground": "#c4c400"
         }
     },
-    "workbench.colorTheme": "Wildberries Darker",
+    "workbench.colorTheme": "Precious Dark Eleven",
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -24,7 +24,6 @@
     "editor.detectIndentation": false,
     "editor.minimap.enabled": false,
     "workbench.startupEditor": "none",
-    "window.zoomLevel": -1,
     "editor.renderWhitespace": "all",
     "[yaml]": {
         "editor.insertSpaces": true,
@@ -37,5 +36,25 @@
             "strings": true
         }
     },
-    "python.testing.unittestEnabled": true
+    "python.testing.unittestEnabled": true,
+    "terminal.integrated.profiles.linux": {
+        "custom_tmux": {
+            "path": "/usr/bin/tmux",
+            "args": [
+                "new-session",
+                "-A",
+                "-s",
+                "${workspaceFolder}"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "custom_tmux",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.tabFocusMode": false,
+    "terminal.integrated.tabs.title": "${workspaceFolder}",
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.maxTokenizationLineLength": 2500
+    },
+    "window.zoomLevel": -1
 }
