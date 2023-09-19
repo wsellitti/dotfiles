@@ -56,5 +56,6 @@
         "editor.tabSize": 2,
         "editor.maxTokenizationLineLength": 2500
     },
-    "window.zoomLevel": -1
+    "window.zoomLevel": -1,
+    "terminal.integrated.enableMultiLinePasteWarning": false
 }
