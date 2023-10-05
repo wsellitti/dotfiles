@@ -5,7 +5,6 @@
             "editorCursor.foreground": "#c4c400"
         }
     },
-    "workbench.colorTheme": "Precious Dark Eleven",
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -20,9 +19,12 @@
     "rewrap.wrappingColumn": 78,
     "python.defaultInterpreterPath": "/bin/python3",
     "python.languageServer": "Jedi",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true
+    },
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
     "editor.detectIndentation": false,
-    "editor.minimap.enabled": false,
     "workbench.startupEditor": "none",
     "editor.renderWhitespace": "all",
     "[yaml]": {
@@ -56,6 +58,8 @@
         "editor.tabSize": 2,
         "editor.maxTokenizationLineLength": 2500
     },
-    "window.zoomLevel": -1,
-    "terminal.integrated.enableMultiLinePasteWarning": false
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "notebook.formatOnSave.enabled": true,
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Default Dark+"
 }
