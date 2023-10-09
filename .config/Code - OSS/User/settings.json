@@ -14,13 +14,13 @@
     "security.workspace.trust.untrustedFiles": "open",
     "diffEditor.renderSideBySide": false,
     "git.confirmSync": false,
-    "python.analysis.autoImportCompletions": false,
+    "python.analysis.autoImportCompletions": true,
     "rewrap.autoWrap.enabled": true,
     "rewrap.wrappingColumn": 78,
-    "python.defaultInterpreterPath": "/bin/python3",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
     "python.languageServer": "Jedi",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python",
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true
     },
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
@@ -61,5 +61,5 @@
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "notebook.formatOnSave.enabled": true,
     "editor.formatOnSave": true,
-    "workbench.colorTheme": "Default Dark+"
+    "workbench.colorTheme": "Solarized Dark"
 }
