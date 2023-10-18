@@ -9,8 +9,8 @@ set textwidth=79
 set relativenumber
 set number
 set background=dark
-set list
-set lcs+=space:·
+"set list
+"set lcs+=space:·
 
 " Syntax
 syntax enable
