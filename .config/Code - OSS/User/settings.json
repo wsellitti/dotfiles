@@ -61,5 +61,6 @@
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "notebook.formatOnSave.enabled": true,
     "editor.formatOnSave": true,
+    "docker.languageserver.formatter.ignoreMultilineInstructions": true,
     "workbench.colorTheme": "Solarized Dark"
 }
