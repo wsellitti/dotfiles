@@ -5,6 +5,7 @@
             "editorCursor.foreground": "#c4c400"
         }
     },
+    "workbench.colorTheme": "Solarized Dark",
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -62,5 +63,6 @@
     "notebook.formatOnSave.enabled": true,
     "editor.formatOnSave": true,
     "docker.languageserver.formatter.ignoreMultilineInstructions": true,
-    "workbench.colorTheme": "Solarized Dark"
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.inheritEnv": false
 }
