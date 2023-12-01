@@ -63,6 +63,5 @@
     "notebook.formatOnSave.enabled": true,
     "editor.formatOnSave": true,
     "docker.languageserver.formatter.ignoreMultilineInstructions": true,
-    "terminal.integrated.enablePersistentSessions": false,
-    "terminal.integrated.inheritEnv": false
+    "terminal.integrated.enablePersistentSessions": false
 }
