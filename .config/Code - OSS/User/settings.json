@@ -63,5 +63,6 @@
     "notebook.formatOnSave.enabled": true,
     "editor.formatOnSave": true,
     "docker.languageserver.formatter.ignoreMultilineInstructions": true,
+    "window.zoomLevel": -1,
     "terminal.integrated.enablePersistentSessions": false
 }
