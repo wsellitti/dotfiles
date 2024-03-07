@@ -30,8 +30,10 @@ let g:jedi#completions_command = "<C-Space>"
 
 " QoL
 set autoread
+set foldenable
+set foldmethod=indent
 
 " Custom commands
-:command Nonum set norelativenumber nonumber
-:command Num set relativenumber number
+:command Nonum set norelativenumber nonumber 
+:command Num set relativenumber number 
 
