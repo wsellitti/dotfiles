@@ -28,3 +28,10 @@ let g:jedi#rename_command = "<leader>r"
 let g:jedi#usages_command = "<leader>n"  
 let g:jedi#completions_command = "<C-Space>"
 
+" QoL
+set autoread
+
+" Custom commands
+:command Nonum set norelativenumber nonumber
+:command Num set relativenumber number
+
