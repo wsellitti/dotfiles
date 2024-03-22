@@ -16,6 +16,7 @@ set background=dark
 syntax enable
 filetype on
 filetype plugin on
+filetype plugin indent on
 
 " Keyboard shortcuts
 let mapleader = "\\"
@@ -37,3 +38,11 @@ set foldmethod=indent
 :command Nonum set norelativenumber nonumber 
 :command Num set relativenumber number 
 
+" Functions
+function! Scratch()
+    split
+    noswapfile hide enew
+    setlocal buftype=nofile
+    setlocal bufhidden=hide
+    file scratch
+endfunction
